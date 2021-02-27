@@ -1,0 +1,280 @@
+/*responsive css for Personal template*/
+
+
+
+/*Medium devices (laptop, less than 1365px)*/
+@media (max-width: 1365px) {
+	/*comment*/
+
+}
+
+/*Medium devices (small laptop, less than 1024px)*/
+@media (max-width: 1024px) {
+	/*comment*/
+	
+
+}
+
+/*Medium devices (tablets, less than 992px)*/
+@media (max-width: 992px) {
+	
+	.wrapper{
+		padding-right: 30px;
+		padding-left: 30px;
+	}
+	
+	/*common class end*/
+	.header-part{
+		background: url('../images/bg2.jpg');
+		background-repeat: no-repeat;
+		/* background-size: cover; */
+		background-position: center center;
+		min-height: 590px;
+		border-bottom-right-radius: 20%;
+		border-bottom-left-radius: 20%;
+		z-index: 33;
+		position: relative;
+	}
+
+	.navbar-nav .nav-item .nav-link{
+		font-size: 11px;
+	}
+	.banner-content{
+		text-align: center;
+	}
+	.banner-content h3{
+		padding-top: 50px;
+		font-size: 35px;
+	}
+	.banner-content h1 a{
+		font-size: 40px;
+		word-spacing: 2px;
+		letter-spacing: 5px;
+	}
+	.banner-content h2{
+		font-size: 30px;
+	}
+	.home-social{
+		margin-left: auto;
+		margin-right: auto;
+		-webkit-box-pack: center;
+		-ms-flex-pack: center;
+		justify-content: center;
+	}
+	.banner-content .bnr-img img{
+		display: none;
+	}
+	
+	/*header-area end*/
+
+	.service-item:hover{
+		-webkit-box-shadow: 0px 0px 15px 0px blue;
+		box-shadow: 0px 0px 15px 0px blue;
+		margin-top: 0px;
+	}
+	/*service-area end*/
+	
+	/*section end*/
+
+	/*section start*/
+	
+	/*section end*/
+
+	/*section start*/
+	
+	/*section end*/
+}
+
+/*Small devices (landscape phones, less than 768px)*/
+@media (max-width: 767.99px) {
+	
+	.wrapper{
+		padding-right: 30px;
+		padding-left: 30px;
+	}
+	.diviceCustom-padding{
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	/*common class end*/
+	.menubar{
+		background: #327D71;
+	}
+	.navbar-nav .nav-item .nav-link{
+		font-size: 18px;
+	}
+
+	.navbar-nav{
+		background: #327D71;
+		position: absolute;
+		width: 100%;
+		z-index: 55;
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-pack: center;
+		-ms-flex-pack: center;
+		justify-content: center;
+		-webkit-box-align: center;
+		-ms-flex-align: center;
+		align-items: center;
+	}
+	.navbar-nav .nav-item:before{
+		display: none;
+	}
+	.navbar-nav .nav-item:after{
+		display: none;
+	}
+
+	.banner-content h3{
+		padding-top: 50px;
+		font-size: 23px;
+	}
+	.banner-content h1 a{
+		font-size: 35px;
+		word-spacing: 0px;
+		letter-spacing: 2px;
+	}
+	.banner-content h2{
+		font-size: 22px;
+	}
+	/*header-area end*/
+	.about-content{
+		margin-top: 50px;
+	}
+	/*about-area start*/
+	.services-area{
+		border-top-left-radius: 5%;
+		border-top-right-radius: 5%;
+	}
+	.diviceCustom-padding{
+		margin-bottom: 20px;
+	}
+	/*service-area end*/
+	/*portfolio-area end*/
+
+	/*section start*/
+	
+	/*section end*/
+
+	/*section start*/
+	
+	/*section end*/
+
+}
+
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 576px) {
+
+	.heading-one h3{
+		font-size: 22px;
+		letter-spacing: 2px;
+	}
+	.heading-one h3:after{
+		width: 20%;
+		top: 12px;
+	}
+	.heading-one h3:before{
+		width: 20%;
+		top: 12px;
+	}
+	.common-heading .heading-two h4{
+		font-size: 12px;
+		word-spacing: 2px;
+	}
+	/*common css end*/
+	.banner-content h3{
+		padding-top: 50px;
+		font-size: 20px;
+	}
+	.banner-content h1 a{
+		font-size: 30px;
+		word-spacing: 0px;
+		letter-spacing: 2px;
+	}
+	.banner-content h2{
+		font-size: 20px;
+	}
+	/*header-area end*/
+
+	.portfolio-filter ul li{
+		font-size: 13px;
+	}
+	/*portfolio-area end*/
+
+	.footer-menu li{
+		margin: 0px 8px;
+	}
+	/*footer area end*/
+
+}
+
+/*Extra small devices (portrait small phones, less than 320px)*/
+@media (max-width: 360px) {
+	.col-port{
+		position: relative;
+		width: 100%;
+		padding-right: 15px;
+		padding-left: 15px;
+		-webkit-box-flex: 0;
+		-ms-flex: 0 0 100%;
+		flex: 0 0 100%;
+		max-width: 100%;
+	}
+
+	.common-btn a{
+		padding: 10px 13px;
+		font-size: 12px;
+	}
+	.heading-one h3{
+		font-size: 18px;
+		letter-spacing: 2px;
+	}
+	.heading-one h3:after{
+		width: 20%;
+		top: 10px;
+	}
+	.heading-one h3:before{
+		width: 20%;
+		top: 10px;
+	}
+	.common-heading .heading-two h4{
+		font-size: 12px;
+		word-spacing: 2px;
+	}
+	/*common css end*/
+
+	.banner-content h3{
+		padding-top: 40px;
+		font-size: 18px;
+	}
+	.banner-content h1 a{
+		font-size: 30px;
+		word-spacing: 0px;
+		letter-spacing: 2px;
+		height: 110px;
+	}
+	.banner-content h2{
+		font-size: 18px;
+		color: #fff;
+	}
+	/*header-area end*/
+
+	.portfolio-filter ul li{
+		font-size: 10px;
+	}
+	/*portfolio-area end*/
+
+	.footer-menu li{
+		margin: 0px 5px;
+	}
+	.footer-menu li a{
+		font-size: 9px;
+	}
+	.copyright{
+		font-size: 14px;
+	}
+	/*footer area end*/
+
+}	
+
